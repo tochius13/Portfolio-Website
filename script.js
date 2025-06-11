@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+
+function toggleDescription() {
+  const desc = document.getElementById("project-description");
+  desc.style.display = desc.style.display === "none" ? "block" : "none";
+}
