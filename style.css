@@ -167,16 +167,10 @@ section{
     width: 400px;
     display: flex;
     margin: auto 0;
-    border-radius: 50%;
+    
     
 }
 
-.suit {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .section__text {
     align-self: center;
